@@ -1,0 +1,11 @@
+$(call inherit-product, device/samsung/a10/omni_a10.mk)
+
+PRODUCT_DEVICE := a10
+PRODUCT_NAME := fox_a10
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-A105F
+PRODUCT_MANUFACTURER := samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=a10dd \
+    TARGET_DEVICE=a10
